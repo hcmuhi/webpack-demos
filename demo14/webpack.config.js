@@ -20,6 +20,6 @@ module.exports = {
   externals: {
     // require('data') is external and available
     //  on the global var data
-    'data': 'data'
+    'data2': 'data1'
   }
 };

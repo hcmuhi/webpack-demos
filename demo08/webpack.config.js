@@ -8,11 +8,11 @@ module.exports = {
   },
   plugins: [
     new HtmlwebpackPlugin({
-      title: 'Webpack-demos',
+      title: 'Webpack-demos1',
       filename: 'index.html'
     }),
     new OpenBrowserPlugin({
-      url: 'http://localhost:8080'
+      url: 'http://localhost:8081'
     })
   ]
 };
